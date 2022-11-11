@@ -10,9 +10,9 @@ struct siswa
 
 int main()
 {
-    siswa siswaArray[4];
+    siswa siswaArray[10];
 
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 10; i++)
     {
         cout << "Nama Siswa: ";
         cin >> siswaArray[i].nama;
@@ -23,7 +23,7 @@ int main()
     cout << "Siswa yang gagal: ";
     cout << endl;
 
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 10; i++)
     {
         if (siswaArray[i].nilai < 60)
         {

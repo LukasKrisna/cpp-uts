@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
     int angka1, angka2, total, pilihanMenu;
     char pilihan, operasi;
@@ -74,7 +74,6 @@ int main(int argc, char const *argv[])
         cout << "=====================================" << endl;
         cout << "Apakah anda ingin mengulang?(y/n): ";
         cin >> pilihan;
-        system("cls");
     } while (pilihan == 'y');
     cout << "Terimakasih Sudah Mencoba";
 
